@@ -14,4 +14,6 @@ To know more about setting up 2FA please read here: https://github.com/geel9/Ste
 
 # Used Libraries
 [SteamKit2 1.6.2.38878](https://github.com/SteamRE/SteamKit )  
-[SteamAuth](https://github.com/geel9/SteamAuth)
+[protobuf 2.0.0.668](https://www.nuget.org/packages/protobuf-net/)  
+[SteamAuth](https://github.com/geel9/SteamAuth)  
+
