@@ -1,0 +1,13 @@
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\SteamBotExample.exe.config
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\SteamBotExample.exe
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\SteamBotExample.pdb
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\protobuf-net.dll
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\SteamKit2.dll
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\protobuf-net.pdb
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\protobuf-net.xml
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Debug\SteamKit2.xml
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\obj\Debug\SteamBotExample.csprojResolveAssemblyReference.cache
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\obj\Debug\SteamBotExample.exe
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\obj\Debug\SteamBotExample.pdb

@@ -1,0 +1,12 @@
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\SteamBotExample.exe.config
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\SteamBotExample.exe
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\SteamBotExample.pdb
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\Newtonsoft.Json.dll
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\protobuf-net.dll
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\SteamKit2.dll
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\Newtonsoft.Json.xml
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\protobuf-net.pdb
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\protobuf-net.xml
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\bin\Release\SteamKit2.xml
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\obj\Release\SteamBotExample.exe
+C:\Users\Karlo\documents\visual studio 2013\Projects\SteamBotExample\SteamBotExample\obj\Release\SteamBotExample.pdb

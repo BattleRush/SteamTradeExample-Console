@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{623F6F53-D4E9-46B5-AFD7-EB363B49D379}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SteamBotExample</RootNamespace>
+    <AssemblyName>SteamBotExample</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SteamKit2, Version=1.6.2.38878, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SteamKit2.1.6.2\lib\net40\SteamKit2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BotInfo.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steam2FA\APIEndpoints.cs" />
+    <Compile Include="Steam2FA\AuthenticatorLinker.cs" />
+    <Compile Include="Steam2FA\SessionData.cs" />
+    <Compile Include="Steam2FA\SteamWebAuth.cs" />
+    <Compile Include="Steam2FA\UserLogin.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Steam2FA\TimeAligner.cs" />
+    <Compile Include="SteamApi\IEconItems_730\GetPlayerItems\getPlayerItems_Attribute.cs" />
+    <Compile Include="SteamApi\IEconItems_730\GetPlayerItems\getPlayerItems_Result.cs" />
+    <Compile Include="SteamApi\IEconItems_730\GetPlayerItems\getPlayerItems_Items.cs" />
+    <Compile Include="SteamApi\IEconItems_730\GetPlayerItems\getPlayerItems_Root.cs" />
+    <Compile Include="SteamApi\IEconService\GetTradeOffers\IEconService_Items.cs" />
+    <Compile Include="SteamApi\IEconService\GetTradeOffers\TradeOfferFromIEconService.cs" />
+    <Compile Include="SteamApi\IEconService\GetTradeOffers\TradeSendFromIEconService_Response.cs" />
+    <Compile Include="SteamApi\IEconService\GetTradeOffers\TradeSendFromIEconService_Root.cs" />
+    <Compile Include="SteamApi\SteamWeb\RgDescription\steamWebInventory_Description.cs" />
+    <Compile Include="SteamApi\SteamWeb\RgDescription\steamWebInventory_MarketAction.cs" />
+    <Compile Include="SteamApi\SteamWeb\RgDescription\steamWebInventory_Action.cs" />
+    <Compile Include="SteamApi\SteamWeb\RgDescription\steamWebInventory_Tag.cs" />
+    <Compile Include="SteamApi\SteamWeb\steamWebInventory_RgDescription.cs" />
+    <Compile Include="SteamApi\SteamWeb\steamWebInventory_RgCurrency.cs" />
+    <Compile Include="SteamApi\SteamWeb\steamWebInventory_InventoryItem.cs" />
+    <Compile Include="SteamApi\SteamWeb\steamWebInventory_Root.cs" />
+    <Compile Include="Steam2FA\SteamGuardAccount.cs" />
+    <Compile Include="SteamApi\SteamWeb\Trade\TradeOfferCreationResponse_Root.cs" />
+    <Compile Include="SteamWeb.cs" />
+    <Compile Include="TradeBotManager.cs" />
+    <Compile Include="TradeManager.cs" />
+    <Compile Include="Trade\TradeOfferItem_Person.cs" />
+    <Compile Include="Trade\TradeOfferItem_Currency.cs" />
+    <Compile Include="Trade\TradeOfferItems_Root.cs" />
+    <Compile Include="Trade\TradeOfferItemAsset.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SteamApi\IEconService\CancelTradeOffer\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
